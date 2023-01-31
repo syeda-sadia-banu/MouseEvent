@@ -1,0 +1,34 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue;
+    color: white;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+.mouse-event h4{
+    position:absolute;
+    top:-50px
+}
+.mouse-event{
+    border: 1px  solid  lightgray;
+    margin: 40px;
+    min-width:200px;
+    min-height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:500px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
